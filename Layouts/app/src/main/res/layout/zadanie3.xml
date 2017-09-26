@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/blue_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/blue"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/red_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blue_tv"
+        android:layout_toEndOf="@+id/blue_tv"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text="@string/red"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/yellow_tv"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/red_tv"
+        android:layout_toEndOf="@+id/red_tv"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:text="@string/yellow"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/gray_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yellow_tv"
+        android:layout_toEndOf="@+id/yellow_tv"
+        android:background="@color/gray"
+        android:gravity="center"
+        android:text="@string/gray"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/green_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gray_tv"
+        android:layout_toEndOf="@+id/gray_tv"
+        android:background="@color/green"
+        android:gravity="center"
+        android:text="@string/green"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/gray_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/green_tv"
+        android:layout_toStartOf="@+id/green_tv"
+        android:background="@color/gray"
+        android:gravity="center"
+        android:text="@string/gray"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/yellow_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gray_tv2"
+        android:layout_toStartOf="@+id/gray_tv2"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:text="@string/yellow"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/red_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yellow_tv2"
+        android:layout_toStartOf="@+id/yellow_tv2"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text="@string/red"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/blue_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/red_tv2"
+        android:layout_toStartOf="@+id/red_tv2"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/blue"
+        android:textAllCaps="true" />
+
+</RelativeLayout>
