@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce hendrerit sit amet libero nec condimentum. Aliquam lacus augue, scelerisque id mi ac, mollis faucibus diam. Sed lobortis consequat hendrerit. Vivamus dapibus maximus varius. Quisque rhoncus purus nec aliquet aliquam. Phasellus pharetra purus non sollicitudin dapibus. Maecenas auctor eleifend risus, at posuere est egestas sodales.
+
+Nam eu accumsan mauris, sed molestie quam. Aliquam faucibus, mi ut consequat posuere, neque magna consectetur neque, eu blandit tellus nunc et tortor. Integer elementum velit eu arcu aliquet molestie. In ut congue mauris. Integer ultricies, metus vel imperdiet placerat, urna enim aliquet ipsum, ac elementum neque justo sit amet sem. Mauris laoreet sed sapien vel blandit. Donec tempor felis vitae velit hendrerit ultricies tempor et sem. Maecenas elit est, interdum sed gravida sit amet, molestie vel massa. Nulla rutrum nunc ac tellus faucibus efficitur. Aliquam erat volutpat. Phasellus vel accumsan tortor. Proin quis lectus vehicula, sodales mi vitae, pulvinar dui. Aenean laoreet maximus tristique.
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc tincidunt dui eget mi finibus tempus. Sed elementum lectus a interdum pulvinar. Nullam maximus tortor luctus vehicula sodales. Donec scelerisque accumsan odio id semper. Cras congue quam convallis pretium feugiat. Nulla sodales venenatis fermentum. Aliquam porta congue lectus, imperdiet commodo turpis aliquam at. Phasellus pharetra consequat erat, ac lacinia mi tempus ac. Nunc laoreet commodo leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur eget fermentum quam. Etiam vulputate et leo eu vestibulum. Etiam vitae sapien at justo convallis vestibulum sit amet in dui.
+
+Sed id justo a justo imperdiet suscipit. Aliquam eget dui ac mauris consequat ornare id vitae eros. Aliquam imperdiet eget nibh posuere ullamcorper. Nulla facilisi. Aenean luctus rhoncus purus eget congue. Mauris tellus mauris, consequat non ultricies ac, condimentum sed quam. Sed tristique, mi vel hendrerit pharetra, eros felis rhoncus mauris, a rutrum orci lectus ut odio. Integer nec maximus massa. Duis accumsan quam felis, non consequat quam porta eu. Cras sit amet neque odio. Mauris lobortis augue sed nisl maximus ullamcorper.
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla fringilla dui mi, non accumsan risus scelerisque at. Quisque ut mi at sapien venenatis auctor. Vestibulum et felis dui. Pellentesque neque odio, blandit non rhoncus at, pretium et odio. Phasellus et iaculis nunc. Integer facilisis quam sit amet mauris blandit, eget tincidunt turpis ultricies.</string>
+
+    <string name="poczatek">Początek</string>
+    <string name="poczatek_desc">Robert Langdon, profesor Uniwersytetu Harvarda i specjalista od symboli, przenosi nas do malowniczej Hiszpanii. Tam przemierza ulice Madrytu, Barcelony, Sewilli i Bilbao w poszukiwaniu odpowiedzi na nurtujące ludzkość pytania:
+
+Skąd pochodzimy?
+
+Dokąd zmierzamy?
+
+Bez względu na to kim jesteś i w co wierzysz, nie masz wpływu na to, co się wydarzy…
+
+Robert Langdon, profesor Uniwersytetu Harvarda, specjalista w dziedzinie ikonologii religijnej i symboli, przybywa do Muzeum Guggenheima w Bilbao, gdzie ma dojść do ujawnienia odkrycia, które „na zawsze zmieni oblicze nauki”. Gospodarzem wieczoru jest Edmond Kirsch, czterdziestoletni miliarder i futurysta, którego oszałamiające wynalazki i śmiałe przepowiednie zapewniły my rozgłos na całym świecie. Kirsch, który dwadzieścia lat wcześniej był jednym z pierwszych studentów Langdona na Harvardzie, planuje ujawnić informację, która będzie stanowić odpowiedź na fundamentalne pytania dotyczące ludzkiej egzystencji.
+
+Gdy Langdon i kilkuset innych gości w osłupieniu ogląda oryginalną prezentację, wieczór zmienia się w chaos, a cenne odkrycie Kirscha może przepaść na zawsze. Chcąc stawić czoła nieuchronnemu zagrożeniu, Langdon musi uciekać z Bilbao. Towarzyszy mu Ambra Vidal, elegancka dyrektorka muzeum, który pomagała Kirschowi zorganizować wydarzenie. Razem udają się do Barcelony i podejmują niebezpieczną misję odnalezienia kryptograficznego hasła, które stanowi klucz do sekretu Kirscha…</string>
+
+    <string name="spiace">Śpiące królewny</string>
+    <string name="spiac_desc">W przyszłości tak realistycznej i bliskiej, że mogłaby być współczesnością, coś dziwnego dzieje się z kobietami, które zasypiają: szczelnie owija je zwiewna substancja przypominająca kokon. Gdy ktoś je budzi, gdy obrastający je materiał zostaje naruszony bądź zerwany, uśpione kobiety wpadają w dziką furię i stają się szaleńczo agresywne; śpiąc, przenoszą się do innego świata − świata, w którym panuje harmonia, a konflikty są rzadkością. Tajemnicza Evie jest jednak odporna na błogosławieństwo, bądź klątwę, niezwykłej śpiączki. Czy jest medyczną anomalią, którą należy przebadać? A może demonem, którego trzeba zabić? Porzuceni mężczyźni, zdani na siebie i swoje coraz bardziej prymitywne odruchy, dzielą się na wrogie frakcje, niektórzy pragną zabić Evie, inni ją ocalić. Część wykorzystuje panujący chaos, by zemścić się na starych bądź nowych wrogach. W świecie nagle opanowanym przez mężczyzn wszyscy uciekają się do przemocy.
+
+Osadzona w małym mieście w Appalachach, gdzie największym pracodawcą jest więzienie kobiece, powieść "Śpiące królewny" to dająca do myślenia, nadzwyczajnie wciągająca historia, która dziś wydaje się szczególnie aktualna.</string>
+
+    <string name="rok">Rok 1984</string>
+    <string name="rok_desc">Wielki brat patrzy – to właśnie napisy tej treści, w antyutopii Orwella krzyczące z plakatów rozlepionych po całym Londynie, natchnęły twórców telewizyjnego show „Big Brother”. Czyżby wraz z upadkiem komunizmu wielka, oskarżycielska powieść straciła swoją rację bytu, stając się zaledwie inspiracją programu rozrywkowego? Nie. Bo ukazuje świat, który zawsze może powrócić. Świat pustych sklepów, permanentnej wojny, jednej wiary.
+
+Klaustrofobiczny świat Wielkiego Brata, w którym każda sekunda ludzkiego życia znajduje się pod kontrolą, a dominującym uczuciem jest strach. Świat, w którym ludzie czują się bezradni i samotni, miłość uchodzi za zbrodnię, a takie pojęcie jak „wolność” i „sprawiedliwość” nie istnieją. Na świecie są miejsca, gdzie ten stan wciąż trwa. I zawsze znajdą się „cudotwórcy” gotowi obiecywać stworzenie nowego ładu, który od wizji Orwella dzieli tylko krok. Niestety, piekło wybrukowane jest dobrymi chęciami…</string>
+
+    <string name="folwark">Folwark zwierzęcy</string>
+    <string name="folwark_desc">Orwell pisał: „»Folwark zwierzęcy« miał być przede wszystkim satyrą na rewolucję rosyjską. Jednak, jak podkreślam, przesłanie utworu jest szersze – chciałem wyrazić w nim myśl, iż ów szczególny rodzaj rewolucji (gwałtowna rewolucja oparta na konspiracji, z motorem napędowym w postaci nieświadomie żądnych władzy osób) może doprowadzić jedynie do zmiany władców. Mój morał brzmi tak oto: rewolucje mogą przynieść radykalną poprawę, gdy masy będą czujne i będą wiedzieć, jak pozbyć się swych przywódców, gdy tamci zrobią, co do nich należy. (...) Nie można robić rewolucji, jeśli nie robi się jej dla siebie; nie ma czegoś takiego jak dobrotliwa dyktatura".</string>
+
+</resources>

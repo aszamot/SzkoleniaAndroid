@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.tomasz.intents">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--POWTORKA-->
+        <activity android:name=".powtorka.Zadanie14"></activity>
+
+        <activity android:name=".powtorka.Zadanie15"></activity>
+
+        <!--PRZYKLADY-->
+        <activity android:name=".prezentacje.rv.RecyclerViewExample">
+
+        </activity>
+
+        <activity android:name=".prezentacje.pv.PagerExample">
+
+        </activity>
+
+        <activity android:name=".prezentacje.zmianyaktywnosci.FirstActivity">
+
+        </activity>
+
+        <activity android:name=".prezentacje.zmianyaktywnosci.SecondActivity"></activity>
+
+        <activity android:name=".prezentacje.implicit.ImplicitExample"></activity>
+
+        <activity android:name=".prezentacje.lifecycle.LifeCycleFirst">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".prezentacje.lifecycle.LifeCycleSecond"></activity>
+
+        <!--ZADANIA-->
+        <activity android:name=".zadania.zadanie1.Zadanie1Acitivty"></activity>
+
+        <activity android:name=".zadania.zadanie3.Zadanie3Activity"></activity>
+
+        <activity android:name=".zadania.zadanie4.Zadanie4ActivityFirst"></activity>
+
+        <activity android:name=".zadania.zadanie4.Zadanie4ActivitySecond"></activity>
+
+        <activity android:name=".zadania.zadanie5.Zadanie5Activity">
+
+        </activity>
+
+        <activity android:name=".zadania.zadanie7.Zadanie7Activity"></activity>
+        <activity android:name=".zadania.zadanie8.Zadanie8Activity"></activity>
+    </application>
+
+</manifest>
