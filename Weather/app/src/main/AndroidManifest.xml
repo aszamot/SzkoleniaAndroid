@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.tomasz.weather">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <!--PREZENTACJE-->
+        <activity android:name=".prezentacje.GitHubGetToTextViewWithError">
+
+        </activity>
+
+        <activity android:name=".prezentacje.GitHubGetToTextViewProper">
+
+        </activity>
+
+        <activity android:name=".prezentacje.GitHubWithProgressBar">
+
+        </activity>
+
+        <activity android:name=".prezentacje.GitHubToTextViewWithJSON">
+
+        </activity>
+
+        <activity android:name=".prezentacje.githubfull.GitHubToRecyclerView">
+
+        </activity>
+
+        <activity android:name=".prezentacje.githubfull.GitHubToRecyclerViewWithLoader">
+
+        </activity>
+
+        <activity android:name=".prezentacje.prefs.First">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".prezentacje.prefs.Second">
+
+        </activity>
+
+        <activity android:name=".prezentacje.githubfull.GitHubWithDataBase">
+
+        </activity>
+
+        <!--ZADANIA-->
+        <activity android:name=".zadania.zadanie1.WeatherToTextView">
+
+        </activity>
+
+        <activity android:name=".zadania.zadanie2.WeatherToTextViewJSON">
+
+        </activity>
+
+        <activity android:name=".zadania.zadanie3.WeatherToRecyclerView">
+
+        </activity>
+
+        <activity android:name=".zadania.zadanie4.WeatherToRecyclerViewWithLoader">
+
+        </activity>
+
+        <activity android:name=".zadania.zadanie5.WetherWithPrefs">
+
+        </activity>
+
+        <activity android:name=".zadania.zadanie5.Settings">
+
+        </activity>
+
+        <activity android:name=".zadania.zadanie6.WheaterWithDataBase">
+
+        </activity>
+
+    </application>
+
+</manifest>
