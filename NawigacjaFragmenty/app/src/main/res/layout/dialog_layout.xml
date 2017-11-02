@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/from_tel_btn"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="Filmy z telefonu" />
+        android:layout_margin="8dp"
+        android:text="Do you understand?"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@color/colorPrimary" />
 
     <EditText
-        android:id="@+id/url_et"
+        android:id="@+id/dialog_answer_et"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginBottom="8dp"
         android:layout_marginLeft="32dp"
         android:layout_marginRight="32dp"
-        android:layout_marginTop="32dp"
-        android:hint="URL:" />
+        android:hint="Answer here"
+        android:inputType="text"
+        android:maxLines="1" />
 
     <Button
-        android:id="@+id/from_url"
+        android:id="@+id/dialog_submit_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="puść film z url" />
+        android:layout_margin="8dp"
+        android:text="submit" />
 
 </LinearLayout>

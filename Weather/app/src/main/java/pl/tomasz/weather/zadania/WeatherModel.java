@@ -17,11 +17,11 @@ public class WeatherModel {
     }
 
     public WeatherModel(String city, String date, double temp,
-                        String weatherGroup, String iconId){
-        this.setCity(city);
-        this.setDate(date);
-        this.setTemp(temp);
-        this.setWeatherGroup(weatherGroup);
+        String weatherGroup, String iconId){
+            this.setCity(city);
+            this.setDate(date);
+            this.setTemp(temp);
+            this.setWeatherGroup(weatherGroup);
         this.setIconId(iconId);
     }
 

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "208645459278",
+    "firebase_url": "https://test-b2d56.firebaseio.com",
+    "project_id": "test-b2d56",
+    "storage_bucket": "test-b2d56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208645459278:android:a6ca50193b3ad087",
+        "android_client_info": {
+          "package_name": "pl.atk.nawigacjafragmenty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208645459278-i8583lei66j9a6ve30s0k7gpmire10e7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX0MGQpTSSqK244A-FdI1dRNrrpqGmD0o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

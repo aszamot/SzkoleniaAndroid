@@ -1,61 +1,53 @@
-package pl.tomasz.mediaplayer;
+package com.example.tomasz.myapplication;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
-import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.widget.MediaController;
 import android.widget.VideoView;
-
-/**
- * Created by Tomasz on 12.10.2017.
- */
 
 public class VideoPlayer extends AppCompatActivity {
 
     private VideoView videoView;
-    private int position = 0;
     private MediaController mediaController;
+    private int poosition = 0;
 
     @Override
-    protected void onCreate(@Nullable final Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_videoplayer);
+        setContentView(R.layout.activity_video_player);
 
         videoView = (VideoView) findViewById(R.id.video_view);
 
         if (mediaController == null) {
             mediaController = new MediaController(this);
-
             mediaController.setAnchorView(videoView);
 
             videoView.setMediaController(mediaController);
         }
 
-        Intent intent = getIntent();
-        if (intent != null) {
-            String path = getIntent().getStringExtra("video_to_play");
+        Intent inent = getIntent();
+        if (inent != null) {
+            String path = inent.getStringExtra("video_to_play");
             videoView.setVideoURI(Uri.parse(path));
+            videoView.start();
         }
 
         videoView.requestFocus();
 
         videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
-
+            @Override
             public void onPrepared(MediaPlayer mediaPlayer) {
-                if(savedInstanceState != null){
-                    position = savedInstanceState.getInt("CurrentPosition");
-                }
-                videoView.seekTo(position);
-                if (position == 0) {
+                videoView.seekTo(poosition);
+                if (poosition == 0) {
                     videoView.start();
                 }
 
                 mediaPlayer.setOnVideoSizeChangedListener(new MediaPlayer.OnVideoSizeChangedListener() {
                     @Override
-                    public void onVideoSizeChanged(MediaPlayer mp, int width, int height) {
+                    public void onVideoSizeChanged(MediaPlayer mediaPlayer, int i, int i1) {
                         mediaController.setAnchorView(videoView);
                     }
                 });
@@ -64,25 +56,23 @@ public class VideoPlayer extends AppCompatActivity {
     }
 
     @Override
-    protected void onPause() {
-        super.onPause();
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        int pos = videoView.getCurrentPosition();
+        outState.putInt("current_position", videoView.getCurrentPosition());
+        if(videoView.isPlaying()){
+            outState.putBoolean("playing", true);
+        }else{
+            outState.putBoolean("playing", false);
+        }
         videoView.pause();
     }
 
     @Override
-    public void onSaveInstanceState(Bundle savedInstanceState) {
-        super.onSaveInstanceState(savedInstanceState);
-
-        savedInstanceState.putInt("CurrentPosition", videoView.getCurrentPosition());
-        videoView.pause();
-    }
-
-    @Override
-    public void onRestoreInstanceState(Bundle savedInstanceState) {
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
 
-        position = savedInstanceState.getInt("CurrentPosition");
-        videoView.seekTo(position);
+        poosition = savedInstanceState.getInt("current_position", 0);
+        videoView.seekTo(poosition);
     }
-
 }
