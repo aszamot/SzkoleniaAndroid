@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Layouts.iml" filepath="$PROJECT_DIR$/Layouts.iml" />
+      <module fileurl="file://D:\ITGENERATOR\SzkoleniaAndroid\Layouts\Layouts.iml" filepath="D:\ITGENERATOR\SzkoleniaAndroid\Layouts\Layouts.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\ITGENERATOR\SzkoleniaAndroid\Layouts\app\app.iml" filepath="D:\ITGENERATOR\SzkoleniaAndroid\Layouts\app\app.iml" />
     </modules>
   </component>
 </project>
